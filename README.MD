@@ -1,6 +1,6 @@
-# Oracle Social Engagement App
+# Ogage
 
-Info & links for OSE app
+Readme file
 
 ## App Overview
 
@@ -38,8 +38,11 @@ While this app has a team focus it will also provide a platform for employees to
 
 ## Links
 
- - Git Repo
- - Latest prototype
+ - [Git Repo](https://github.com/rubengarciam/ogage.git)
+ - [Latest prototype](http://marvl.in/a69h54)
+ - [OSN Conversation: public internal info](https://socialnetwork.oracle.com/osn/web/#conversation:id=69199509)
+ - [Tech Conversation on OSN](https://socialnetwork.oracle.com/osn/fc/Client?conversation=69199910)
+ - [DoCS repo](https://scdemos-scuscdc.documents.us2.oraclecloud.com/documents/link/LF2E326EA6AA47B28FEB3713C78580E8114D4B29CFDB/folder/F23D02F398A2B72D61121DC3C78580E8114D4B29CFDB/_ogage) (password protected)
  - Latest beta ipa/apk
  - Tasks items ([access request required](mailto:ruben.garcia.mohedano@oracle.com))
 
@@ -59,13 +62,13 @@ While this app has a team focus it will also provide a platform for employees to
 - Jacqui Guillet
 - Steve Tindall
 - Tim Scott
-- Ruben Garcia - Strategic Programs
+- [@rubengarciam](https://twitter.com/rubengarciam)
 - Ashley Cheuk – SC for EPM/BI
 - Boris Poletan – SC for Middleware
 - Nishad Bakshi – OCS
 - Sean El-Sayed – OCS
 
-## Technology Utilised
+## Technology
 
 - MCS = Mobile Cloud Service
 - JCS = Java Cloud Service
@@ -73,9 +76,3 @@ While this app has a team focus it will also provide a platform for employees to
 - MAF
 - Angular.js
 - Node.js
-
-## References
-
-- [Barpass event by Alex Gillino](https://dribbble.com/shots/1996295-Barpass-iOS-8/attachments/350605)
-- [Event Planner by Angel Ceballos](https://dribbble.com/shots/2014828-Event-Planner-Event-View/attachments/355665)
-- [Sign In Flow](https://dribbble.com/shots/1756772-Sign-In-Flow-Powder-App/attachments/285561)

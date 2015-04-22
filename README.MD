@@ -63,16 +63,17 @@ While this app has a team focus it will also provide a platform for employees to
 - Steve Tindall
 - Tim Scott
 - [@rubengarciam](https://twitter.com/rubengarciam)
-- Ashley Cheuk – SC for EPM/BI
-- Boris Poletan – SC for Middleware
-- Nishad Bakshi – OCS
-- Sean El-Sayed – OCS
+- Ashley Cheuk
+- Boris Poletan
+- Nishad Bakshi
+- Sean El-Sayed
 
 ## Technology
 
 - MCS = Mobile Cloud Service
 - JCS = Java Cloud Service
-- DCS = Database Cloud Service
+- DbCS = Database Cloud Service
+- DCS = Developer Cloud Service
 - MAF
 - Angular.js
 - Node.js

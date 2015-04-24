@@ -1,0 +1,18 @@
+{
+    "output": "latest",
+    "title": "Ogage",
+    "description": "An app that is designed specifically for every day use by Oracle employees in ANZ",
+    "github": false,
+    "githubHost": false,
+    "links": {
+        "home": false,
+        "about": false,
+        "issues": false,
+        "contribute": false,
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false
+        }
+      }
+}

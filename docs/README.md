@@ -2,6 +2,8 @@
 
 An app that is designed specifically for every day use by Oracle employees in ANZ.
 
+![](img/logo.png)
+
 Our goal is to present relevant information that is useful tool for employees, while promoting employee engagement and build a community vibe by encouraging participation in additional activities including charity events, team building events, community events such as the City to Surf and so on.
 
 The app will comprise of 3 areas initially: What’s On, Kudos Points, and Idea Box.

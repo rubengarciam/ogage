@@ -1,4 +1,6 @@
-# Architecture Score
+# Components
+
+## Architecture Scope
 
 - Mobile App
   - HTML5 development

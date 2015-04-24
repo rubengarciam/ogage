@@ -1,11 +1,13 @@
 # Summary
 
 * [Introduction](README.md)
-* [Components](scope/README.md)
-   * [Mobile Application](mobile_application/README.md)
-       * [Prototype](mobile_application/functionality.md)
-   * [MBaaS](scope/mbaas.md)
-   * [Admin Dashboard](scope/admin_dashboard.md)
-   * [Data Storage](scope/data_storage.md)
+* [Components](components/README.md)
+   * [Mobile Application](components/mobile_application/README.md)
+       * [Functionality](components/mobile_application/functionality.md)
+       * [Specifications](components/mobile_application/specifications.md)
+       * [Prototype](components/mobile_application/prototype.md)
+   * [MBaaS](components/mbaas/README.md)
+   * [Admin Dashboard](components/admin_dashboard/README.md)
+   * [Data Storage](components/data_storage/README.md)
 * [Changelog](changelog/README.md)
 

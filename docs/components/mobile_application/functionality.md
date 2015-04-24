@@ -1,7 +1,5 @@
-# Mobile Application
+# Functionality
 
-
-## Functionality
 
 This section describes the functionality that the application will have:
 

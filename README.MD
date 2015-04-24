@@ -4,4 +4,4 @@ An app that is designed specifically for every day use by Oracle employees in AN
 
 You can access [the latest documentation here](docs/).
 
-You can download [the latest documentation here](docs/latest.zip)
+You can download [the latest documentation here](docs/latest.zip?raw=true)

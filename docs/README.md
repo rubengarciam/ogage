@@ -34,6 +34,7 @@ Initial, desired functionality:
  - [OSN Conversation: public internal info](https://socialnetwork.oracle.com/osn/web/#conversation:id=69199509)
  - [Tech Conversation on OSN](https://socialnetwork.oracle.com/osn/fc/Client?conversation=69199910)
  - [DoCS repo](https://scdemos-scuscdc.documents.us2.oraclecloud.com/documents/link/LF2E326EA6AA47B28FEB3713C78580E8114D4B29CFDB/folder/F23D02F398A2B72D61121DC3C78580E8114D4B29CFDB/_ogage) (password protected)
+ - [This documentation in a zip file](latest.zip?raw=true))
 
 ## Contributors
 

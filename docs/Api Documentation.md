@@ -19,11 +19,9 @@ accepts json with
 
 returns on failure with
 
-```
-{
+```{
   "success": "false"
-}
-```
+}```
 
 
 returns on success with

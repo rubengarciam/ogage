@@ -28,12 +28,10 @@ returns on failure with
 
 returns on success with
 
-```
-{
+```{
   "success": "true",
   "auth": "ExampleAuthTokenWhichIsQuiteLongAndFilledWith@lphaNum3ricCharacters"
-}
-```
+}```
 
 
 auth will be required for future api requests after login

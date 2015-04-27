@@ -13,7 +13,8 @@ accepts json with
 {
   "username": "ExampleUsername",
   "password": "ExamplePassword"
-}```
+}
+```
 
 
 returns on failure with
@@ -21,7 +22,8 @@ returns on failure with
 ```
 {
   "success": "false"
-}```
+}
+```
 
 
 returns on success with
@@ -30,7 +32,8 @@ returns on success with
 {
   "success": "true",
   "auth": "ExampleAuthTokenWhichIsQuiteLongAndFilledWith@lphaNum3ricCharacters"
-}```
+}
+```
 
 
 auth will be required for future api requests after login

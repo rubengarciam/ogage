@@ -1,4 +1,4 @@
-**Api Documentation**
+#Api Documentation
 
 rootURL to be determined! 
 
@@ -6,37 +6,36 @@ For on the fly testing when I myself (Nish) am online you can possibly use https
 
 
 
-```
-post
 
-/api/login```
+    post
+    
+    /api/login
 
 
 
 accepts json with
 
-```
-{
-  "username": "ExampleUsername",
-  "password": "ExamplePassword"
-}```
+    {
+      "username": "ExampleUsername",
+      "password": "ExamplePassword"
+    }
 
 
 returns on failure with
 
-```
-{
-  "success": "false"
-}```
+
+    {
+      "success": "false"
+    }
 
 
 returns on success with
 
-```
-{
-  "success": "true",
-  "auth": "ExampleAuthTokenWhichIsQuiteLongAndFilledWith@lphaNum3ricCharacters"
-}```
+
+    {
+      "success": "true",
+      "auth": "ExampleAuthTokenWhichIsQuiteLongAndFilledWith@lphaNum3ricCharacters"
+    }
 
 
 auth will be required for future api requests after login

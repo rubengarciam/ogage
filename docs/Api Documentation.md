@@ -2,7 +2,7 @@
 
 rootURL to be determined, for on the fly testing when I (Nish) am online you can possibly use https://ogage-audarth.c9.io/
 
-Post
+post
 ```
 /api/login```
 

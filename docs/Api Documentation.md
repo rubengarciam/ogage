@@ -1,10 +1,14 @@
 **Api Documentation**
 
-rootURL to be determined, for on the fly testing when I (Nish) am online you can possibly use https://ogage-audarth.c9.io/
+rootURL to be determined! 
 
-post
+For on the fly testing when I myself (Nish) am online you can possibly use https://ogage-audarth.c9.io/
+
+
 
 ```
+post
+
 /api/login```
 
 

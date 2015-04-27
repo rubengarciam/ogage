@@ -3,12 +3,16 @@
 rootURL to be determined, for on the fly testing when I (Nish) am online you can possibly use https://ogage-audarth.c9.io/
 
 post
-```/api/login```
+
+```
+/api/login```
+
 
 
 accepts json with
 
-```{
+```
+{
   "username": "ExampleUsername",
   "password": "ExamplePassword"
 }```
@@ -16,14 +20,16 @@ accepts json with
 
 returns on failure with
 
-```{
+```
+{
   "success": "false"
 }```
 
 
 returns on success with
 
-```{
+```
+{
   "success": "true",
   "auth": "ExampleAuthTokenWhichIsQuiteLongAndFilledWith@lphaNum3ricCharacters"
 }```

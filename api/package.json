@@ -5,6 +5,8 @@
     "body-parser": "^1.12.3",
     "cluster": "^0.7.7",
     "express": "^4.12.3",
+    "express-jwt": "^3.0.0",
+    "jsonwebtoken": "^5.0.0",
     "passport": "^0.2.1",
     "passport-local": "^1.0.0"
   }

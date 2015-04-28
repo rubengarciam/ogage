@@ -1,9 +1,17 @@
 //user model and database methods
 var db_user = require("../model/db_user");
+var server = require("../server");
 //passport for authentication
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 
+//auth token
+var expressJwt = require('express-jwt');
+var jwt = require('jsonwebtoken');
+var secret = 'Dontsharethiss3cr37';
+
+
+//passport config for login
 passport.use(new LocalStrategy(
   function(username, password, done) {
       //console.log(username);
@@ -23,13 +31,16 @@ passport.use(new LocalStrategy(
   }
 ));
 
+//login method
 exports.login = function(req, res, next) {
     
     passport.authenticate('local', function(err, user, info) {
         if (err) { return next(err); }
         if (!user) { return res.json({success: false, message: info.message}); }
         //success
-        res.json({success: true, auth: 'randomcharacters'});
+        //auth token to be sent
+        var token = jwt.sign(user, secret, { expiresInMinutes: 60*5 });
+        res.json({success: true, auth: token});
         
   })(req, res, next);
 };

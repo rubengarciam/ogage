@@ -7,7 +7,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 
 //include user controller
-var user = require('controller/user');
+var user = require('./controller/user');
 
 // Create a new Express application
 var app = express();

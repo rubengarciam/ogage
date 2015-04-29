@@ -5,10 +5,13 @@ rootURL to be determined!
 For on the fly testing when I myself (Nish) am online you can possibly use https://ogage-audarth.c9.io/
 
 
+For all methods attach the header:
 
+    Content-Type: application/json
+    
+For login use 
 
     post
-
     /api/login
 
 
@@ -20,24 +23,38 @@ accepts json with
       "password": "ExamplePassword"
     }
 
+For example
 
-returns on failure with
+    {"username": "boris", "password": "boris"}
+
+returns on invalid username with
 
 
     {
-      "success": "false"
+      "success": "false",  "message": "Unknown user $USERNAME"
     }
 
+and on invalid password with
+
+    {
+      "success": "false",  "message": "Incorrect password"
+    }
+    
 
 returns on success with
 
 
     {
       "success": "true",
-      "auth": "ExampleAuthTokenWhichIsQuiteLongAndFilledWith@lphaNum3ricCharacters"
+      "auth": "$ExampleAuthTokenWhichIsQuiteLongAndFilledWith@lphaNum3ricCharacters"
     }
 
 
-auth will be required for future api requests after login
+For all future methods then attach the token prefixed by "Bearer" in the authorization header ie.
+
+    Authorization: Bearer $ExampleAuthTokenWhichIsQuiteLong
+
+
+
 
 TBC.

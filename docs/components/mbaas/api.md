@@ -1,6 +1,6 @@
 #Api Documentation
 
-rootURL to be determined!
+Deployed to http://128.199.200.217:8080 , https to be setup eventually!
 
 For on the fly testing when I myself (Nish) am online you can possibly use https://ogage-audarth.c9.io/
 

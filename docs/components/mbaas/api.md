@@ -53,6 +53,30 @@ returns on success with
 For all future methods then attach the token prefixed by "Bearer" in the authorization header ie.
 
     Authorization: Bearer $ExampleAuthTokenWhichIsQuiteLong
+    
+for early login testing and and getting user placeholder details use
+
+    get
+    /api/restricted
+
+requires the authorisation token and returns some placeholder data eg.
+
+    {
+    "name": "foo",
+    "message": "hello boris",
+        "details":{
+        "id": 0,
+        "username": "boris",
+        "password": "boris",
+        "events":[
+            {"id": 0, "name": "city2surf", "going": "5", "maybe": "12"…},
+            {"id": 1, "name": "dance party", "going": "3", "maybe": "4"…},
+            {"id": 2, "name": "pizza and beer", "going": "90", "maybe": "120"…}
+        ],
+        "iat": 1430723547,
+        "exp": 1430741547
+        }
+    }
 
 
 

@@ -1,9 +1,11 @@
+//placeholder database
+
 var events = exports.events = [];
 
-events.push({ id: 0, name: 'city2surf' });
-events.push({ id: 1, name: 'dance party' });
-events.push({ id: 2, name: 'pizza and beer'});
-events.push({ id: 3, name: 'stuff'});
+events.push({ id: 0, name: 'city2surf', going: '5', maybe: '12' });
+events.push({ id: 1, name: 'dance party', going: '3', maybe: '4' });
+events.push({ id: 2, name: 'pizza and beer', going: '90', maybe: '120'});
+events.push({ id: 3, name: 'stuff', going: '15', maybe: '42'});
 
 var users = exports.users = [];
 

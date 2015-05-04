@@ -8,7 +8,6 @@ var LocalStrategy = require('passport-local').Strategy;
 //auth token
 var expressJwt = require('express-jwt');
 var jwt = require('jsonwebtoken');
-var secret = 'Dontsharethiss3cr37';
 
 
 //passport config for login
@@ -39,9 +38,11 @@ exports.login = function(req, res, next) {
         if (!user) { return res.json({success: false, message: info.message}); }
         //success
         //auth token to be sent
-        var token = jwt.sign(user, secret, { expiresInMinutes: 60*5 });
+        var token = jwt.sign(user, server.secret, { expiresInMinutes: 60*5 });
         res.json({success: true, auth: token});
         
   })(req, res, next);
 };
+
+
 

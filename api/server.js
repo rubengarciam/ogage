@@ -1,5 +1,5 @@
 var port = process.env.PORT;
-
+console.log('using port ' + port)
 
 // Include Express
 var express = require('express');
@@ -15,6 +15,7 @@ var expressJwt = require('express-jwt');
 var jwt = require('jsonwebtoken');
 
 var secret = 'Dontsharethiss3cr37';
+exports.secret=secret;
 
 // Create a new Express application
 var app = express();
@@ -39,7 +40,9 @@ app.post('/api/login', user.login);
 app.get('/api/restricted', function (req, res) {
   console.log('user ' + req.user.username + ' is calling /api/restricted');
   res.json({
-    name: 'foo'
+    name: 'foo',
+    message: 'hello '+req.user.username,
+    details: req.user
   });
 });
 

@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
+    <script src="js/app.js"></script>
+    <script src="cordova.js"></script>
+	<style>
+		input 
+		{
+			background-color:transparent;
+			border:none;
+			color:white;
+			text-align:center;
+			font-size:26px;
+			font-family:Helvetica
+		}
+		#login 
+		{
+			position:absolute;
+			top:25%;
+			left:50%
+		}
+		a
+		{
+			text-decoration: none;
+			color:white;
+			text-align:center;
+			position:relative;
+			top:103px;
+		}
+	</style>
+  </head>
+	<body style="background:linear-gradient(#8F8E8E, #262626);">
+		<!-- <div style="transition: background-color 0.5s ease; background-color: red;"> </div> -->
+		<div id="login">
+			<input type="text" id="username" value="username">
+			<hr>
+			<input type="text" id="password" value="password">
+			<br>
+			<button type="submit" style="border:0; background: transparent;position:relative;left:115px; margin-top:60px">
+				<img src="tick.png" width="70" height="70" alt="submit" />
+			</button>
+			
+			<a href="" style=""><p>Not a user yet? </p><p>register with your oracle account</p></a>
+		</div>
+	</body>
+ </html>

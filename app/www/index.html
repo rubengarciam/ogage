@@ -16,8 +16,6 @@
 		{
 			background-color:transparent;
 			border:none;
-			color:white;
-			text-align:center;
 			font-size:26px;
 			font-family:Helvetica
 		}
@@ -34,21 +32,41 @@
 			text-align:center;
 			position:relative;
 			top:103px;
+			left:-30px;
+		}
+		#tick
+		{
+			border:0; 
+			background: 
+			transparent; 
+			margin-top:40px;
+			margin-left:67px;
+		}
+		#registerUser
+		{
+			position:relative;
+			left:2px;
+		}
+		.textField
+		{
+			color:white !important;
+			text-align:center;
+			padding-left:20px !important;
 		}
 	</style>
   </head>
-	<body style="background:linear-gradient(#8F8E8E, #262626);">
+	<body style="background:linear-gradient(#D72333, #9E031A);">
 		<!-- <div style="transition: background-color 0.5s ease; background-color: red;"> </div> -->
 		<div id="login">
-			<input type="text" id="username" value="username">
+			<input type="text" class="textField" value="Username">
 			<hr>
-			<input type="text" id="password" value="password">
+			<input type="text" class="textField" value="Password">
 			<br>
-			<button type="submit" style="border:0; background: transparent;position:relative;left:115px; margin-top:60px">
-				<img src="img/tick.png" width="70" height="70" alt="submit" />
+			<button type="submit" id="tick" onclick="location.href='event.html'">
+				<img src="img/tick.png" width="40" height="40" alt="submit" />
 			</button>
 			
-			<a href="" style=""><p>Not a user yet? </p><p>register with your oracle account</p></a>
+			<a href="" id="registerUser"><p>Not a user yet? </p><p>Register with your oracle account</p></a>
 		</div>
 	</body>
  </html>

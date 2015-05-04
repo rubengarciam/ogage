@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
+    <script src="js/app.js"></script>
+    <script src="cordova.js"></script>
+	<style>
+	#profilePic
+	{
+		width:70px;
+		height:70px;
+		float:left;
+	}
+	h1,h2,h3,h4,h5,h6
+	{
+		color:white;
+	}
+	#header
+	{
+		margin-left:10px;
+		margin-top:30px;
+		margin-right:10px;
+		display:block;
+		overflow:hidden;
+		padding-bottom:20px;
+	}
+	.redirectButtons
+	{
+		float:right;
+		width:25px;
+		height:25px;
+		margin-top:20px;
+		margin-right:5px;
+	}
+	#kudos
+	{
+		display:block;
+		overflow:hidden;
+	}
+	#kudosHistory
+	{
+		margin-left:78px;
+		float:left;
+		display:block;
+		overflow:hidden;
+	}
+	#kudosNextReward
+	{
+		float:right;
+		margin-right:53px;
+	}
+	.detailFont
+	{
+		display: block;
+		font-size: .67em;
+		margin-left: 0;
+		margin-right: 0;
+		font-weight: none;
+		color:white;
+	}
+	#MoneyRaised
+	{
+		margin-left:50px;
+		display:block;
+		overflow:hidden;
+	}
+	.moneyGraph
+	{
+		width:120px;
+		height:120px;
+		margin-right:20px;
+		margin-top:20px;
+	}
+	#team1Stat
+	{
+		float:left;
+		mar
+	}
+	#team2Stat
+	{
+		float:left;
+	}
+	.statFontDetail
+	{
+		display: block;
+		font-size: .67em;
+		margin-left: -26px;
+		margin-right: 0;
+		font-weight: none;
+		color:white;
+		text-align:center;
+	}
+	.arrow 
+	{
+		width:10px;
+		height:10px;
+		float:right;
+		margin-right:51px;
+	}
+	ul
+	{
+		color:white;
+		font-size:15px;
+	}
+	ul li
+	{
+		margin-top:4px;
+	}
+	#listContainer
+	{
+		margin-left:50px;
+		display:block;
+		overflow:hidden;
+		margin-top:20px;
+	}
+	</style>
+  </head>
+	<body style="background:linear-gradient(#D72333, #9E031A);">
+		<div id="header">
+			<img id="profilePic" src="img/jonProfilePic.png"></img>
+			<div style="float:left;">
+				<h4>Hi Jon</h4>
+				<h6 class="detailFont">Your Profile</h6>
+			</div>
+			<img class="redirectButtons" src="img/calendarButton.png"></img>
+			<img class="redirectButtons" src="img/boxButton.png"></img>
+			<img class="redirectButtons" src="img/kudosButton.png"></img>
+		</div>
+		<div id="kudos">
+			<div id="kudosHistory">
+				<h4>History</h4>
+				<p class="detailFont">1,320 kudos</p>
+			</div>
+			<div id="kudosNextReward">
+				<h4>Next Reward</h4>
+				<p class="detailFont" style="margin-left:25px;">30 kudos</p>
+			</div>
+		</div>
+		<div id="MoneyRaised">
+				<h4>Money Raised</h4>
+				<div id="team1Stat">
+					<img class="moneyGraph" src="img/moneyRaisedTeam1.png"></img>
+					<p class="statFontDetail" >by team 1</p>
+					<p class="statFontDetail">$290.00</p>
+				</div>
+				<div id="team2Stat">
+					<img class="moneyGraph" src="img/moneyRaisedTeam2.png"></img>
+					<p class="statFontDetail">by team 2</p>
+					<p class="statFontDetail">$4890.60</p>
+				</div>
+		</div>
+		<div id="listContainer">
+			<ul>
+				<li>Your Events <img class="arrow" src="img/arrow.png"></img></li>
+				<li>Your Teams <img class="arrow" src="img/arrow.png"></img></li>
+				<li>Change your password <img class="arrow" src="img/arrow.png"></img></li>
+				<li>logout <img class="arrow" src="img/arrow.png"></img></li>
+			</ul>
+		</div>
+
+	</body>
+ </html>

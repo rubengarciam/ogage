@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
+    <script src="js/app.js"></script>
+    <script src="cordova.js"></script>
+	<style>
+	#eventNameFont
+	{
+		color:white;
+		display: block;
+		font-weight: bold;
+		float:left;
+		margin-left:15px;
+	}
+	#arrow
+	{
+		width:15px;
+		height:15px;
+		float:left;
+		margin-top:2px;
+
+	}
+	#eventBlurb
+	{
+		color:white;
+		width:330px;
+	}
+	#header
+	{
+		display:block;
+		overflow:hidden;
+	}
+	#attendingIcon
+	{
+		width:20px;
+		height:20px;
+		float:right;
+		margin-right:20px;
+	}
+	#pointsHolder
+	{
+		background-image: url(img/pointsBG.png);
+		width:120px;
+		height:40px;
+		background-size: 100% 100%;
+		
+	}
+	#pointsText
+	{
+		color:white;
+		padding-top:8px;
+		padding-left:22px;
+		font-size: 1.17em;
+	}
+	#profilePic
+	{
+		width:60px;
+		height:60px;
+		float:right;
+	}
+	#profileInfo
+	{
+		margin-left:30px;
+		display:block;
+		overflow:hidden;
+	}
+	#createrName
+	{
+		float:right;
+		color:white;
+		margin-top:70px;
+		margin-right:5px;
+	}
+	.createrInfo
+	{
+		margin-top:33px
+	}
+	#headerContainer
+	{
+		border-style: solid;
+		border-bottom: 3px solid white;
+		padding-left:20px;
+		margin-top:20px
+	}
+	#attendingList
+	{
+		height:133px;
+		background-color:#282828;
+		width:100%;
+	}
+	</style>
+  </head>
+	<body style="background:linear-gradient(#D72333, #9E031A);">
+		<div id="headerContainer">
+			<div id="header">
+				<img id="arrow" src="img/arrowLeft.png"></img>
+				<p id="eventNameFont">City2Surf 2015</p>
+				<img id="attendingIcon" src="img/attendingIcon.png"></img>
+				
+			</div>
+			
+			<div id="profileInfo">
+				<div id="profileDetail">
+					<img id="profilePic" class="createrInfo" src="img/nedProfilePic.png"></img>
+					<p id="createrName">created by Ned Stark</p>
+				</div>
+				<p id="eventBlurb">Join your fellow Oracle employees in the next City2Surf run and raise money for charity</p>
+				<div id="pointsHolder"><p id="pointsText">820 points</p></div>
+			</div>
+		</div>
+		<div id="attendingList"></div>
+	</body>
+ </html>

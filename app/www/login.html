@@ -1,0 +1,15 @@
+<ion-view title="Login" style="background:linear-gradient(#D72333, #9E031A);">
+		<!-- <div style="transition: background-color 0.5s ease; background-color: red;"> </div> -->
+		<div id="login">
+			<input type="text" class="textField" placeholder="Username" ng-model="data.username">
+			<hr>
+			<input type="password" class="textField" placeholder="Password" ng-model="data.password">
+			<br>
+			<!--<button type="submit" id="tick" onclick="location.href='schedule.html'">-->
+			<button class="button" id="tick" ng-click="login()">
+				<img src="img/tick.png" width="40" height="40" alt="submit" />
+			</button>
+			
+			<a href="" id="registerUser"><p>Not a user yet? </p><p>Register with your oracle account</p></a>
+		</div>
+</ion-view>

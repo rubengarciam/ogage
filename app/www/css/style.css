@@ -1,1 +1,46 @@
 /* Empty. Add your own CSS if you like */
+input 
+{
+	background-color:transparent;
+	border:none;
+	font-size:26px;
+	font-family:Helvetica
+}
+#login 
+{
+	position:absolute;
+	top:25%;
+	left:25%
+}
+a
+{
+	text-decoration: none;
+	color:white;
+	text-align:center;
+	position:relative;
+	top:103px;
+	left:-30px;
+}
+#tick
+{
+	border:0; 
+	background: 
+	transparent; 
+	margin-top:40px;
+	margin-left:67px;
+}
+#registerUser
+{
+	position:relative;
+	left:2px;
+}
+.textField
+{
+	color:white !important;
+	text-align:center;
+	padding-left:20px !important;
+}
+body
+{
+	background:linear-gradient(#D72333, #9E031A);
+}

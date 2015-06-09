@@ -9,6 +9,9 @@ var bodyParser = require('body-parser');
 //include user controller
 var user = require('./controller/user');
 
+//include db methods
+var db = require('./model/db_operations');
+
 //include for authentication token
 //npm install express-jwt --save
 var expressJwt = require('express-jwt');
@@ -49,32 +52,4 @@ app.get('/api/restricted', function (req, res) {
 app.listen(port);
 console.log('Worker  running!');
 
-var oracledb = require('oracledb');
-
-oracledb.getConnection(
-    {
-      user          : "Yoga",
-      password      : "Welcome1#",
-      connectString : "opc.opcau.com:1521/yogapdb.auoracle84096.oraclecloud.internal"
-    },
-    function(err, connection)
-    {
-      if (err) {
-        console.error(err.message);
-        return;
-      }
-      connection.execute(
-          "SELECT * "
-          + "FROM Users "
-          //+ "WHERE department_id = :did"
-          ,
-          //[180],
-          function(err, result)
-          {
-            if (err) {
-              console.error(err.message);
-              return;
-            }
-            console.log(result.rows);
-          });
-    });
+db.select();

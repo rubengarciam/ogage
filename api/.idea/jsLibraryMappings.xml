@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{api node_modules}" />
+    <file url="file://$PROJECT_DIR$/server.js" libraries="{Node.js Globals, Node.js v0.12.2 Core Modules}" />
+    <file url="PROJECT" libraries="{Node.js v0.12.2 Core Modules, api node_modules, body-parser-DefinitelyTyped, express-DefinitelyTyped, express-jwt-DefinitelyTyped}" />
+  </component>
+</project>
